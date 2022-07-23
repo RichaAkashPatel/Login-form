@@ -1,0 +1,163 @@
+body {
+    background: url(images/memphis-geometric.png) 0 0 no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+.main {
+    width: 1000px;
+    margin: 100px auto;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.contentform {
+    
+    width: 75%;
+}
+
+h1.title {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.f-left {
+    float: left;
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    height: auto;
+    min-height: 380px;
+    border-radius: 25px 0 0 25px;
+    text-align: center;
+}
+
+.f-right {
+    float: left;
+    width: 35%;
+    background: #0eca7e;
+    padding: 10px;
+    min-height: 380px;
+    border-radius: 0px 25px 25px 0;
+
+}
+
+h2 {
+    text-align: left;
+    font-size: 12px;
+    color: #0eca7e;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #0eca7e;
+}
+
+/* h2 span{
+    color:brown;
+} */
+.Richa {
+    text-align: center;
+    border-top: #0eca7e 4px solid;
+    width: 60px;
+}
+
+.social-icon {
+    text-align: center;
+    width: 100%;
+}
+
+.social-icon ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-icon ul li {
+    background: #fff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 5px;
+    width: 17px;
+    border-radius: 38px;
+    margin: 10px 5px;
+}
+
+.form-row label {
+    width: 50px;
+    text-align: right;
+    margin-left: 30px;
+    margin-right: 25px;
+    font-weight: 600;
+    border: #0eca7e;
+}
+
+.form-control {
+    border-radius: 2px;
+    width: 35%;
+    height: 30px;
+    background: white;
+    border: 1px solid #0eca7e;
+    padding: 5px 5px;
+    color: #000;
+    font-size: 14px;
+    font-style: inherit;
+    margin-: 50%;
+}
+
+.foot-link {
+    width: 100%;
+}
+
+.foot-link ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.foot-link ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.foot-link ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+h3.title1 {
+    font-size: 25px;
+    margin-top: 40%;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Richa1 {
+    text-align: center;
+    border-top: #fff 4px solid;
+    width: 60px;
+}
+
+.Submit-button {
+
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    background: red;
+    border-radius: 40px;
+    border: 1px solid black;
+    border-width: 1px 1px 1px 1px;
+    padding: 10px 15px 10px 15px;
+    color: #000;
+    font-size: initial;
+    font-style: normal;
+    text-align: center;
+}
